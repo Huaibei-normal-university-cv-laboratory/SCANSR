@@ -13,13 +13,12 @@ Our paper is currently under submission, and detailed data information will be m
 - monai 1.3.2
 - timm 1.0.11
 
-## Train
-### 1. Prepare training data
+## Dataset
 Download Brats2018 dataset and IXI dataset.  
 
 process dataset by processDataset.py (data_tools/).
-### 2. Begin to train
+## Train
 python train.py -v "version" -p train --train_yaml "xxx.yaml"
 
-## Quick Test 
-python test.py -v "version" -s 153 -t tester_Matlab --test_dataset_name "dataset"# SCANSR
+## Test 
+python test.py -v "version" -s 153 -t tester_Matlab --test_dataset_name "dataset"
