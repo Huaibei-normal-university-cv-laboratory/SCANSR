@@ -14,7 +14,7 @@ Our paper is currently under submission, and detailed data information will be m
 - timm 1.0.11
 
 ## Dataset
-Download Brats2018 dataset and IXI dataset. (The IXI dataset supporting the results of this study is available from https : //brain − development.org/ixi− dataset/. The BraTs2018 dataset supporting the results of this study is available from https : //www.med.upenn.edu/sbia/brats2018.html.) 
+Download Brats2018 dataset and IXI dataset. (The IXI dataset supporting the results of this study is available from https://brain−development.org/ixi−dataset/. The BraTs2018 dataset supporting the results of this study is available from https://www.med.upenn.edu/sbia/brats2018.html.) 
 
 process dataset by processDataset.py (data_tools/).
 ## Train
